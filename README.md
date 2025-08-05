@@ -18,7 +18,7 @@ This package contains an action server that allows a TortoiseBot to follow waypo
    ```bash
    source /opt/ros/noetic/setup.bash
    cd ~/simulation_ws && catkin_make && source devel/setup.bash
-   rosrun tortoisebot_gazebo tortoisebot_action_server.py
+   rosrun tortoisebot_waypoints tortoisebot_action_server.py
 
 3. Run ros tests on default good cases in another terminal:
    ```bash

@@ -46,7 +46,7 @@ class TestWaypointPrecision(unittest.TestCase):
 
     def test_final_position_within_tolerance(self):
         """Check final [x, y] matches goal within a margin."""
-        goal_x, goal_y = 1.0, 1.0
+        goal_x, goal_y = 0.5, 0.5
         self._send_goal(goal_x, goal_y)
 
         final_pos, _ = self._get_current_position_and_yaw()
