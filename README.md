@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TortoiseBot Waypoints
 
 ## Description
@@ -32,7 +31,7 @@ This package contains an action server that allows a TortoiseBot to follow waypo
    i.e.
        <test test-name="test_waypoint" pkg="tortoisebot_waypoints" type="waypoint_test_node_err.py" />
 
-   - It may be good to relaunch everything from step 1 to 3 above but it is ok to run step 3 only if both the gazebo and action server are still running correctly.
+   - It may be good to relaunch everything from step 1 to 3 above but it is ok to run step 4 only if both the gazebo and action server are still running correctly.
 
    Simply
    ```bash
